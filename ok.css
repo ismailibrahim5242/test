@@ -1,0 +1,67 @@
+#pic{
+    margin-right: 3pc;
+}
+
+
+.navbar-nav{
+    padding-left: 25pc;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btn{
+    margin-left: 3pc;
+    width: 8pc;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.me{
+    margin-left: 7pc;
+}
+.pics{
+    margin-left:5pc;
+}
+
+#live{
+    color: rgb(108, 108, 238);
+    font-weight: 800;
+}
+
+.you{
+font-weight: 700;
+font-size: large;
+color: rgb(101, 101, 231);
+}
+
+.btn2{
+background-color: rgb(116, 182, 243);
+height: 8vh;
+width: 8pc;
+border-radius: 1pc;
+color: white;
+font-weight: bold;
+}
+
+.finish{
+    background-color: black;
+}
+
+#inp{
+    margin-left: 15pc;
+    width: 50pc;
+    height: 6ch;
+    border-radius: 1pc;
+}
+
+.btn4{
+    background-color: rgb(74, 74, 204);
+    width: 10pc;
+    height: 3pc;
+    border-radius: 1pc;
+    color: white;
+    font-weight: bold;
+}
