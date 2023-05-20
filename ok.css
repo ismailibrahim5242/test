@@ -1,49 +1,115 @@
-#pic{
-    margin-right: 3pc;
+.pics{
+    margin-right: 6pc;
 }
-
-
 .navbar-nav{
-    padding-left: 25pc;
-    font-size: medium;
+    padding-left: 28pc;
+    font-size:small;
     font-weight: 600;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 80px;
 }
+
 
 #btn{
-    margin-left: 3pc;
-    width: 8pc;
+    margin-left: 1pc;
+    width: 120px;
+    height: 50px;
     color: aliceblue;
-    font-size: large;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
     border-radius: 8px;
+    border: 0;
+    margin-top: 1.3pc;
 }
 
-.me{
-    margin-left: 7pc;
-}
-.pics{
+.pic{
     margin-left:5pc;
+    height: 50px;
+
 }
 
 #live{
-    color: rgb(108, 108, 238);
+    color: rgb(0,135,219);
     font-weight: 800;
 }
 
-.you{
-font-weight: 700;
-font-size: large;
-color: rgb(101, 101, 231);
+.myflex:not(.second){
+    display: flex;
+    justify-content: start;
+    padding-inline: 2rem;
+    gap: 5rem;
+}
+.myflex.second {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 2rem;
+    gap: 1rem;
+}
+.myflex.second .text.second{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.myflex.second .text.second h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.myflex.second .text.second p {
+    width: 85%;
+}
+.myflex .text{
+    align-self: center;
+    width: 32%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 50%;
+    margin-right: 1pc;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.me{
+    margin-left: 6pc;
+    background-color:rgb(250,2550,250);
+}
+
+#btn7{
+    height: 3rem;
+    width: 9rem;
+    border: 0;
+    border-radius: 0.2pc;
+    color: white;
+    margin-right: 100pc;
+    margin-bottom: 10pc;
+}
+
+.one{
+ min-height:12rem;
+ background-color:rgb(237,240,245);
+ width: 21rem;
+ margin-left: 5pc;
+ box-shadow: 0px 0px 1px 0px;
+ padding-top: 3pc;
+ padding-left: 1pc;
+ border: 0px;
 }
 
 .btn2{
 background-color: rgb(116, 182, 243);
 height: 8vh;
-width: 8pc;
-border-radius: 1pc;
+width: 12pc;
+border-radius: 0.4pc;
 color: white;
 font-weight: bold;
+border: 0px;
 }
 
 .finish{
@@ -63,5 +129,25 @@ font-weight: bold;
     height: 3pc;
     border-radius: 1pc;
     color: white;
+    font-weight: bold;
+}
+.log{
+    height: 5pc;
+    padding-left: 3pc;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   padding-top: 2pc;
+   color: white;
+}
+
+.end{
+    margin-left: 3pc;
+}
+
+.off{
+    color: white;
+    font-size: 12px;
     font-weight: bold;
 }
