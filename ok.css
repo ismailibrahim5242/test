@@ -138,8 +138,8 @@ border: 0px;
 .grid-container1{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-   padding-top: 2pc;
-   color: white;
+    padding-top: 2pc;
+    color: white;
 }
 
 .end{
